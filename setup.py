@@ -29,7 +29,7 @@ setup(
       classifiers=[
                    "Development Status :: 3 - Alpha",
                   ],
-      package_data = {'cmocean': ['rgb/*.txt'],},
+      package_data = {'suisai': ['rgb/*.txt'],},
 
       packages    = ["suisai"],
       ext_package = 'suisai',
