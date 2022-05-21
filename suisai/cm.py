@@ -13,7 +13,7 @@ from .  import  tools
 datadir = os.path.join(os.path.split(__file__)[0], 'rgb')
 
 # List of colormap names
-cmapnames = ['forestdawn']
+cmapnames = ['forestdawn','solar']
 
 # initialize dictionary to contain colormaps
 cmap_d = dict()
