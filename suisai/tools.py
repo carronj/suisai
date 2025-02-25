@@ -9,7 +9,10 @@ import matplotlib as mpl
 
 
 if sys.version_info > (3,):
-    _string_types = (str, np.str_, np.unicode_)
+    if np.__version__ > '2':
+        _string_types = (str, np.str_)
+    else:
+        _string_types = (str, np.str_, np.unicode_)
 else:
     _string_types = (basestring, np.str_, np.unicode_)
 
